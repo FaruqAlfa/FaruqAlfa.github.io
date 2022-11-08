@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    background-image: linear-gradient(white, #4649FF);
+}
+
+.contaiiner{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contaiiner img{
+    width: 50px;
+}
+
+/*Header*/
+
+.navbar{
+    position: sticky;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background:transparent;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+.navbar .contaiiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-item{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-item a:hover{
+    box-shadow:0 1rem 1rem rgb(255, 0, 230);
+    transition: all 0.5s;
+}
+
+.nameIcon{
+    margin-right: 450px;
+}
+
+.bg-blue{
+    background-color:rgb(0, 119, 255);
+}
+
+/* Body */
+.container > * {
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: transparent;
+    color: #fff;
+    perspective: 1000px;
+}
+
+.container > *:not(:last-child) {
+    margin-right: 70px;
+}
+
+.inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.container > *:hover .inner {
+    transform: rotateX(180deg);
+}
+
+.back,
+.front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    z-index: -1;
+}
+
+.front h3 {
+    color: black;
+    background-color: #43b4ff72;
+    text-align: center;
+    padding-top: 135px;
+    padding-bottom: 145px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+.makan .front {
+    background: url("img/Barber.jpg");
+}
+
+.cover{
+    background-color: #4397ff5d;
+}
+
+.back {
+    transform: rotateX(180deg);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.back p{
+    color: black;
+    text-align: center;
+}
+
+.back > * {
+    text-align: center;
+}
+
+.makan .back {
+    background-color: rgb(255, 29, 191);
+}
+
+.makan .back:hover{
+    box-shadow:0 1rem 1rem rgb(248, 15, 77);
+    transition: all 0.5s;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(255, 29, 191);
+}
+
+.itemBawah{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Footer .itemBawah {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+}
+
+.card-box2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card2{
+    width: 30%;
+    margin-top: 20px;
+}
+
+.CP{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.card2 img{
+    width: 100px;
+}
+
+.card2 p{
+    padding-top: 20px;
+    color: whitesmoke;
+}
+
+.gambar{
+display: flex;
+justify-content: space-around;
+}
+
+.gambar img{
+    width: 30px;
+}

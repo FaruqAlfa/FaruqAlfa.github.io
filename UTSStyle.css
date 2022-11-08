@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    min-height: 100%;
+    background-image: linear-gradient(white, #4649FF);
+}
+
+.item{
+    padding-bottom: 100px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container img{
+    width: 50px;
+}
+
+/*Header*/
+
+.navbar{
+    position: sticky;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background:transparent;
+    transition: all 0.5s;
+}
+
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-item{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-item a:hover{
+    box-shadow:0 1rem 1rem rgb(255, 0, 230);
+    transition: all 0.5s;
+}
+
+.nameIcon{
+    margin-right: 450px;
+}
+
+.bg-blue{
+    background-color:rgb(0, 119, 255);
+}
+
+/* Body */
+
+.card-box .card img{
+    width: 100%;
+}
+
+.item .container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.title{
+align-items: center;
+text-align: center;
+margin: auto;
+padding: 20px;
+width: 30%;
+border-radius: 20px;
+background-color: #A0B6F5;
+
+}
+
+.title:hover{
+    box-shadow:0 1rem 1rem rgb(248, 15, 77);
+    transition: all 0.5s;
+}
+
+.card-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.card{
+    width: 30%;
+    margin-top: 20px;
+    background-color: #A0B6F5;
+    border-radius: 10%;
+    padding-bottom: 20px;
+}
+
+.card:hover{
+    box-shadow:0 1rem 1rem rgb(248, 15, 77);
+    transition: all 1s;
+}
+
+img{
+    border-radius: 10%;
+}
+
+.card h2, .card p{
+text-align: center;
+margin: 15px;
+
+}
+
+.moreInfo{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    background-color: #4649FF;
+}
+
+.moreInfo:hover{
+    background-color: rgb(255, 59, 114);
+    transition: all 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(255, 29, 191);
+}
+
+.itemBawah{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Footer /*=item*/ .itemBawah /*=container*/{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about/*=title*/{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+   
+}
+
+.card-box2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.card2{
+    width: 30%;
+    margin-top: 20px;
+}
+
+.CP{
+    text-align: center;
+}
+
+.card2 img{
+
+    width: 100px;
+}
+
+.card2 p{
+    padding-top: 20px;
+    color: whitesmoke;
+}
+
+.gambar{
+display: flex;
+justify-content: space-around;
+}
+
+.gambar img{
+   
+    width: 30px;
+}
